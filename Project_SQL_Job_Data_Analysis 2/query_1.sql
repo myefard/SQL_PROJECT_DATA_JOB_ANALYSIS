@@ -151,3 +151,5 @@ WHERE j.job_title ILIKE '%Data Analyst%'
 GROUP BY s.skills
 ORDER BY demand_count DESC, avg_salary DESC
 LIMIT 20;
+
+
